@@ -1,9 +1,11 @@
 .css_02_texto_citado_fonte {
+  margin-top: 16px;
   display: block;
   color: #000000;
-  font-family: 'Montserrat';
-  font-weight: 400;
-  font-size: 12px;
   text-align: right;
-  margin: 0px 0px 0px 0px;
+
+  font-family: $fontPrincipal;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21px;
 }

@@ -1,0 +1,12 @@
+.css_06_boxe_02{
+  margin-top: 24px;
+  padding: 16px;
+
+  background-color: $cor_5;
+  border: 1px solid $cor_2;
+  border-width: 1px 0;
+
+  & :first-child{
+    margin-top: 0 !important;
+  }
+}

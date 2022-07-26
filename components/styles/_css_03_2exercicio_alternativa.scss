@@ -2,35 +2,25 @@
   margin-top: 16px;
 
   font-family: $fontPrincipal;
-  font-weight: 400;
-  color: $textColor;
-  line-height: 1.5em;
+  color: $alternativas;
   font-size: $fontSizeQuestion;
 
   counter-reset: list;
-  padding-inline-start: 41px;
+  padding-inline-start: 27px;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
 
   .group_alternativa :first-child {
     margin-top: 0 !important;
-  }
-
-  
-  &.item_romano_itens .css_03_2exercicio_alternativa_item {
-    &::before {
-      font-family: $fontPrincipal;
-      font-size: $fontSizeIndiceQuestion;
-      font-weight: 600;
-      counter-increment: list;
-      content: counter(list, lower-alpha) ")";
-      position: absolute;
-      left: -30px;
-    }
   }
 
   &.itens .css_03_2exercicio_alternativa_item {
     &::before {
       counter-increment: list;
       content: counter(list, decimal) ".";
+      color: $alternativas;
     }
   }
 
@@ -38,27 +28,24 @@
     &::before {
       counter-increment: list;
       content: counter(list, upper-roman) ".";
+      color: #000 !important;
     }
   }
 
   &.alternativa_assinalar_itens .css_03_2exercicio_alternativa_item {
-    &::after {
-      font-family: $fontPrincipal;
-      font-size: 20px;
-      font-weight: 600;
-      content: "(";
-      position: absolute;
-      left: -32px;
-      top: 0;
+    &::before {
+      display: none;
     }
 
-    &::before {
-      font-family: $fontPrincipal;
-      font-size: 20px;
-      font-weight: 600;
-      content: ")";
+    &::after {
+      content: "";
       position: absolute;
-      left: -16px;
+      width: 20px;
+      height: 20px;
+      left: -32px;
+      top: 0;
+      border: 0.5px solid #888888;
+      background-color: #D9D9D9;
     }
   }
 }

@@ -5,6 +5,37 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
+      "name": "css_05_glossario",
+      "label": "Texto Glossario",
+      "icon": "icons/components/icon_02_texto_geral1.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "directiveOptions": {
+        "title": {
+          "stripStylingOnPaste": true
+        },
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_06_boxe_02_titulo",
+      "icon": "icons/components/container.svg",
+      "label": "06 Boxe Título Background",
+      "properties": [
+        "text-align"
+      ]
+    },
+    {
+      "name": "css_06_boxe_02",
+      "icon": "icons/components/container.svg",
+      "label": "06 Boxe Background",
+      "properties": [
+        "text-align"
+      ]
+    },
+    {
       "name": "audio",
       "icon": "icons/components/icon_00_arte.svg",
       "label": "Componente Áudio",
@@ -572,7 +603,6 @@
         }
       }
     },
-
     {
       "name": "css_01_bullet_unid",
       "icon": "icons/components/icon_01_bullet_unid.svg",
@@ -629,6 +659,9 @@
         "line-height"
       ],
       "directiveOptions": {
+        "title": {
+          "stripStylingOnPaste": true
+        },
         "text": {
           "stripStylingOnPaste": true
         }
@@ -714,7 +747,6 @@
         }
       }
     },
-
     {
       "name": "css_02_2texto_bullet",
       "icon": "icons/components/container.svg",
@@ -753,7 +785,6 @@
         "line-height"
       ]
     },
-
     {
       "name": "css_02_texto_bullet",
       "icon": "icons/components/icon_02_texto_bullet.svg",
@@ -1002,6 +1033,7 @@
       "label": "Exercício Alternativa Assinalar",
       "allowNesting": "yes",
       "properties": [
+        "styles-type-list",
         "style",
         "text-align",
         "letter-spacing",
@@ -1139,7 +1171,7 @@
       }
     },
     {
-      "name": "css_03_2exercicio_container_edit",
+      "name": "css_03_exercicio_container_edit",
       "icon": "icons/components/container.svg",
       "label": "editável exercícios container",
       "selectionMethod": "handle",
@@ -1293,24 +1325,6 @@
         "letter-spacing",
         "line-height"
       ]
-    },
-    {
-      "name": "css_03_exercicio_container_edit",
-      "icon": "icons/components/container.svg",
-      "label": "container exercícios",
-      "selectionMethod": "handle",
-      "allowNesting": "yes",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ],
-      "directiveOptions": {
-        "number_exercicio": {
-          "stripStylingOnPaste": true
-        }
-      }
     },
     {
       "name": "css_03_exercicio_alternativa",
@@ -2691,7 +2705,7 @@
       "name": "container_questao_vf_v2",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting":"yes",
+      "allowNesting": "yes",
       "label": "Quadrinho Verdadeiro Falso",
       "properties": []
     },
@@ -2957,13 +2971,12 @@
         "key": "COMPONENT_IMAGE_LABEL"
       },
       "properties": [
+        "style_image_fit_content",
+        "width",
         "position",
-        "style",
         "style_image",
         "inside-caption",
-        "text-align",
-        "letter-spacing",
-        "line-height"
+        "text-align"
       ],
       "directiveOptions": {
         "caption": {
@@ -3538,6 +3551,7 @@
       "allowNesting": "yes",
       "label": "Background Livro",
       "properties": [
+        "edit-mode",
         "style_lumen_mais"
       ]
     },
@@ -3833,6 +3847,29 @@
   ],
   "groups": [
     {
+      "label": "Manual do Professor",
+      "name": "manual_do_professor",
+      "components": [
+        "css_01_titulo_cap",
+        "css_01_titulo1",
+        "css_01_titulo2",
+        "css_01_titulo3",
+        "css_01_titulo4",
+        "css_01_texto_unid",
+        "css_02_texto_geral",
+        "css_02_texto_geral1",
+        "css_06_boxe_02",
+        "css_06_boxe_02_titulo",
+        "css_02_texto_citado_titulo",
+        "css_02_texto_citado",
+        "css_02_texto_citado_fonte",
+        "css_05_legenda",
+        "css_05_credito1",
+        "css_05_glossario",
+        "css_05_mapa_titulo"
+      ]
+    },
+    {
       "label": "Questões",
       "name": "questoes",
       "components": [
@@ -3846,7 +3883,6 @@
       "label": "Containers",
       "name": "containers",
       "components": [
-        "background",
         "secao_para_aprofundar",
         "secao_para_consolidar",
         "secao_produzir_e_compartilhar",
@@ -3926,26 +3962,13 @@
       "label": "03 exercicios",
       "name": "03_exercicios",
       "components": [
-        "css_03_2exercicio_container_edit",
+        "css_03_exercicio_container_edit",
         "99_bancoquestao",
         "css_03_2exercicio_enunciado",
-        "css_03_2exercicio_alternativa_assinalar",
-        "css_03_2exercicio_alternativa_assinalar_itens",
-        "css_03_2exercicio_alternativa_edit",
-        "css_03_2exercicio_alternativa_item_edit",
-        "css_03_2exercicio_alternativa_item_texto",
-        "css_03_2exercicio_alternativa_item",
-        "css_03_2exercicio_alternativa",
-        "css_03_2exercicio_container",
         "css_03_2exercicio_continuacao",
-        "css_03_2exercicio_enunciado",
-        "css_03_2exercicio_item_romano_itens",
-        "css_03_2exercicio_item_romano",
-        "css_03_2exercicio_item",
-        "css_03_2exercicio_itens",
-        "css_03_exercicio_alternativa_edit",
-        "css_03_exercicio_alternativa",
-        "css_03_exercicio_alternativa_assinalar",
+        "css_03_2exercicio_alternativa",
+        "css_03_2exercicio_alternativa_edit",
+        "css_03_2exercicio_alternativa_assinalar",
         "css_03_exercicio_bullet",
         "css_03_exercicio_citado_titulo",
         "css_03_exercicio_citado",
@@ -3981,8 +4004,8 @@
         "css_05_fonte",
         "css_05_grafico_texto",
         "css_05_grafico_titulo",
-        "css_05_legenda_unidade",
         "css_05_legenda",
+        "css_05_legenda_unidade",
         "css_05_linha_exercicio",
         "css_05_mapa_titulo",
         "css_05_nota_rodape",
@@ -4118,7 +4141,6 @@
       },
       "name": "media",
       "components": [
-        "image",
         "image2",
         "embed",
         "product",
@@ -4137,6 +4159,7 @@
       },
       "name": "layout",
       "components": [
+        "background",
         "container",
         "container_nivel1",
         "container_nivel2",
@@ -4149,6 +4172,65 @@
     }
   ],
   "componentProperties": [
+    {
+      "name": "styles-type-list",
+      "label": "Escolha o tipo de lista",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Itens"
+              }
+            },
+            "value": "itens"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Itens Romano"
+              }
+            },
+            "value": "item_romano_itens"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Alternativa Assinalar"
+              }
+            },
+            "value": "alternativa_assinalar_itens"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "edit-mode",
+      "label": "Ative para ver o modo de edição com barras",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": "Desativado"
+          },
+          {
+            "caption": "Ativado",
+            "value": "edit-mode"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
     {
       "name": "width",
       "label": {
@@ -4716,6 +4798,15 @@
               }
             },
             "value": "_fit_content_margin_auto"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Imagem Título (remove as margens)"
+              }
+            },
+            "value": "_image2_titulo"
           }
         ]
       },

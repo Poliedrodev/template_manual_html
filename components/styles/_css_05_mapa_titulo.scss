@@ -1,74 +1,36 @@
 .css_05_mapa_titulo {
-  display: block;
-  align-items: left;
-  font-size: 20px;  
-  font-family: $fontName;
-  border-top: solid 3px;
-  border-bottom: solid 3px;
-  margin: 0;
-  &.artes {
-    border-color: #84a214;
-    color: #84a214 !important;
-  }
-  &.biologia {
-    border-color: #BD8432;
-    color: #BD8432 !important;
-  }
-  &.filosofia {
-    border-color: #208F6D;
-    color: #208F6D !important;
-  }
-  &.fisica {
-    border-color: #BD8432;
-    color: #BD8432 !important;
-  }
-  &.geografia {
-    border-color: #208F6D;
-    color: #208F6D !important;
-  }
-  &.historia {
-    border-color: #208F6D;
-    color: #208F6D !important;
-  }
-  &.lingua_inglesa {
-    border-color: #84A214;
-    color: #84A214 !important;
-  }
-  &.lingua_portuguesa {
-    border-color: #84A214;
-    color: #84A214 !important;
-  }
-  &.matematica {
-    border-color: #C09100;
-    color: #C09100 !important;
-  }
-  &.producao_de_texto {
-    border-color: #84A214;
-    color: #84A214 !important;
-  }
-  &.quimica {
-    border-color: #BD8432;
-    color: #BD8432 !important;
-  }
-  &.sociologia {
-    border-color: #208F6D;
-    color: #208F6D !important;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+
+  .header_css_05_mapa_titulo {
+    padding: 8px;
+    background: $cor_2;
+
+    .title_header_css_05_mapa_titulo {
+      text-align: center;
+      font-family: $fontTitle;
+      color: #FFF;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 33px;
+    }
   }
 
-  @media only screen and (min-width: $phone-max-width) {
-    /* class styles for the position properties of the image component */
-    &._left {
-        float: left;
-        clear: left;
-        width: calc(50% - 15px);
-        margin-right: 15px;
-        z-index: 1;
+  .main_css_05_mapa_titulo {
+    padding: 0 5.8125rem;
+    border: 1px solid $cor_2;
+    border-width: 0px 1px 1px;
+
+    & :first-child {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
     }
-    &._right {
-        float: right;
-        clear: right;
-        width: 50%;
-        z-index: 1;
+  }
+
+  @media only screen and (max-width: $phone-max-width) {
+    .main_css_05_mapa_titulo {
+      padding: 0;
     }
   }
 }

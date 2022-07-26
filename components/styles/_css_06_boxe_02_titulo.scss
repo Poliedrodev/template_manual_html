@@ -1,0 +1,32 @@
+.css_06_boxe_02_titulo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+
+  .header_css_06_boxe_02_titulo {
+    display: flex;
+    padding: 8px;
+    padding-left: 16px;
+    background: $cor_2;
+
+    .title_header_css_06_boxe_02_titulo {
+      font-family: $fontPrincipal;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 26px;
+      color: #FFFFFF;
+    }
+  }
+
+  .css_06_boxe_02_titulo_main {
+    padding: 16px;
+    background-color: $cor_5;
+
+    & :first-child {
+      margin-top: 0 !important;
+    }
+  }
+
+  border-bottom: 1px solid $cor_2;
+}

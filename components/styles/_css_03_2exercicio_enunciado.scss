@@ -4,6 +4,14 @@
   font-family: $fontPrincipal;
   font-weight: 400;
   color: $textColor;
-  line-height: 1.5em;
   font-size: $fontSizeQuestion;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: $phone-max-width) {
+  .css_03_2exercicio_enunciado,
+  .css_03_2exercicio_continuacao {
+    font-size: 13px;
+    font-weight: 300;
+  }
 }

@@ -1,11 +1,14 @@
 .css_02_texto_bullet {
-  font-size: 18px;
   font-family: $fontPrincipal;
-
-  font-weight: 400;
-  line-height: 1.5em;
   padding-left: 4px;
   margin-top: 16px;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
 
   &:first-child {
     margin: 0 !important;

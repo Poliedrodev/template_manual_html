@@ -1,14 +1,10 @@
 .css_01_texto_unid {
-
-  /* Características do texto */
-  font-family: $fontName;
-  font-weight: 300;
-  font-size: 18px;
-  color: $preto;
-
-  /* Características do componente */
+  margin-top: 24px;
   display: block;
-  line-height: 1.5em;
-  margin: 24px 0px;
+  color: $textColor;
+  font-family: $fontSecundaria;
 
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
 }
