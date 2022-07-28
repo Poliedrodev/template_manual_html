@@ -1,9 +1,45 @@
 {
-  "name": "template_zero",
+  "name": "template_manual_do_professor",
   "description": "Studio Digital Editor Poliedro Template Zero",
   "version": "1.8.0",
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
+    {
+      "name": "css_06_boxe_03",
+      "label": "Boxe número da aula",
+      "icon": "icons/components/icon_02_texto_geral1.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_05_infografico",
+      "label": "Título Info-grafico-fluxo",
+      "icon": "icons/components/icon_02_texto_geral1.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_02_texto_rodape1",
+      "label": "Texto Rodapé",
+      "icon": "icons/components/icon_02_texto_geral1.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
     {
       "name": "css_05_glossario",
       "label": "Texto Glossario",
@@ -3866,7 +3902,10 @@
         "css_05_legenda",
         "css_05_credito1",
         "css_05_glossario",
-        "css_05_mapa_titulo"
+        "css_05_mapa_titulo",
+        "css_02_texto_rodape1",
+        "css_05_infografico",
+        "css_06_boxe_03"
       ]
     },
     {
@@ -5233,6 +5272,15 @@
       }
     },
     "image": {
+      "hero": "auto",
+      "author": "auto",
+      "slideshow": {
+        "type": "to-container",
+        "container": "slideshow"
+      },
+      "product": "auto"
+    },
+    "image2": {
       "hero": "auto",
       "author": "auto",
       "slideshow": {

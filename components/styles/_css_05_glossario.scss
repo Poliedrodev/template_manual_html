@@ -1,20 +1,20 @@
 .css_05_glossario {
   margin-top: 16px;
   padding: 16px;
-  background-color: $cor_4;
+  background-color: $cor_5;
 
   .text_css_05_glossario {
     font-family: $fontSecundaria;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 23.81px;
 
     .first_css_05_glossario {
-      color: #000000;
+      color:#666666;
       font-weight: 600;
     }
-
+    
     .second_css_05_glossario {
-      color:#666666;
+      color: #000000;
       font-weight: 300;
     }
   }
