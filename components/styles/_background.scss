@@ -1,6 +1,6 @@
-.body-book {
+.body-book#viewer-book-html {
   background-image: url('https://livro-digital.p4ed.com/assets/icons/manual-do-professor/background_mp.svg');
-  background-size: auto;
+  background-size: auto !important;
 
   &.edit-mode {
     [doc-container] {
