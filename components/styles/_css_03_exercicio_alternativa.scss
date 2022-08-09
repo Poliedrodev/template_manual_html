@@ -1,14 +1,13 @@
 .css_03_exercicio_alternativa {
-  margin-top: 16px;
-
-  font-family: $fontName;
-  font-weight: 400;
-  color: $textColor;
+  display: block;
+  font-family:$fontPrincipal;
+  font-weight: 300;
+  color: #000000;
   line-height: 1.5em;
-  font-size: $fontSizeQuestion;
-
+  font-size: 18px;
+  margin-top: 12px;
   counter-reset: list;
-  padding-inline-start: 41px;
+  padding-inline-start: 0px;
 
   .group_alternativa :first-child {
     margin-top: 0 !important;
