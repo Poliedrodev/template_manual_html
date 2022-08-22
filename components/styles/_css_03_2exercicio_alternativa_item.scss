@@ -15,7 +15,7 @@
   &::before {
     font-family: $fontPrincipal;
     font-size: $fontSizeIndiceQuestion;
-    font-weight: 400;
+    font-weight: 600;
     counter-increment: list;
     content: counter(list, lower-alpha) ")";
     position: absolute;
