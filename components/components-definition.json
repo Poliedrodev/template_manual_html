@@ -1935,7 +1935,7 @@
     {
       "name": "css_05_grafico_titulo",
       "icon": "icons/components/icon_05_grafico_titulo.svg",
-      "label": "05 Gráfico Título",
+      "label": "05 Título (Diversos)",
       "properties": [
         "style",
         "letter-spacing",
