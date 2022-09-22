@@ -5,6 +5,14 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
+      "name": "quebra_pagina",
+      "icon": "icons/components/separator.svg",
+      "label": "Quebra de página",
+      "properties": [
+        "style"
+      ]
+    },
+    {
       "name": "99_bancoquestao",
       "icon": "icons/components/icon_03_exercicio_enunciado.svg",
       "label": "tag da questão",
@@ -20,7 +28,6 @@
         }
       }
     },
-
     {
       "name": "css_06_boxe_03",
       "label": "Boxe número da aula",
@@ -1286,7 +1293,6 @@
         }
       }
     },
-
     {
       "name": "css_03_exercicio_enunciado",
       "icon": "icons/components/icon_03_exercicio_enunciado.svg",
@@ -1303,7 +1309,6 @@
         }
       }
     },
-
     {
       "name": "css_03_2exercicio_item_romano",
       "icon": "icons/components/icon_03_exercicio_item_romano.svg",
@@ -4211,7 +4216,8 @@
         "container_questao",
         "container_questao_vf_v2",
         "container_faixa",
-        "faixa"
+        "faixa",
+        "quebra_pagina"
       ]
     }
   ],
