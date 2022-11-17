@@ -1,0 +1,56 @@
+.css_icon_corpo {
+
+  .wrap_icons_css_caixa_questao {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    height: 40px;
+
+    .icon_caixa_questao {
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      align-items: center;
+    }
+  }
+ 
+  &.cores_2_anos {
+    border-color: $dois_cor1_A;
+
+    & .dois_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_exe_corpo.svg");
+    }
+  }
+
+  &.cores_3_anos {
+    border-color: $tres_cor1_A;
+
+    & .dois_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_exe_corpo.svg");
+    }
+  }
+
+  &.cores_4_anos {
+    border-color: $quatro_cor1_A;
+
+    & .dois_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_exe_corpo.svg");
+    }
+  }
+
+  &.cores_5_anos {
+    border-color: $cinco_cor1_A;
+
+    & .dois_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_exe_corpo.svg");
+    }
+  }
+}
+@media only screen and (max-width: $phone-max-width) {
+  .css_caixa_questao .wrap_icons_css_caixa_questao{
+    height: 30px;
+  }
+  .css_caixa_questao .wrap_icons_css_caixa_questao .icon_caixa_questao{
+    width: 30px;
+  }
+}

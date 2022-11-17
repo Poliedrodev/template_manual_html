@@ -12,6 +12,7 @@
         "style"
       ]
     },
+
     {
       "name": "99_bancoquestao",
       "icon": "icons/components/icon_03_exercicio_enunciado.svg",
@@ -28,6 +29,84 @@
         }
       }
     },
+
+    {
+      "name": "audio_interno",
+      "icon": "icons/components/icon_00_arte.svg",
+      "label": "Áudio Interno",
+      "properties": [
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        {
+          "name": "embed-code",
+          "directiveKey": "html"
+        }
+      ]
+    },
+
+    {
+      "name": "audio_externo",
+      "icon": "icons/components/icon_00_arte.svg",
+      "label": "Áudio Externo ",
+      "properties": [
+        
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        {
+          "name": "embed-code",
+          "directiveKey": "html"
+        }
+      ]
+    },
+
+    {
+      "name": "video_interno",
+      "icon": "icons/components/video.svg",
+      "label": " Video Interno POPUP CENTER ",
+      "selectionMethod": "handle",
+      "properties": [
+        {
+          "name": "fitting",
+          "defaultValue": "_fit-frame-to-content"
+        },
+        "position",
+        
+        {
+          "name": "embed-code",
+          "directiveKey": "html"
+        },
+        "inside-caption",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
+    {
+      "name": "video_externo",
+      "icon": "icons/components/video.svg",
+      "label": " Video Externo POPUP CENTER ",
+      "selectionMethod": "handle",
+      "properties": [
+        {
+          "name": "fitting",
+          "defaultValue": "_fit-frame-to-content"
+        },
+        "position",
+      
+        {
+          "name": "embed-code",
+          "directiveKey": "html"
+        },
+        "inside-caption",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
     {
       "name": "css_06_boxe_03",
       "label": "Boxe número da aula",
@@ -2896,6 +2975,7 @@
         }
       }
     },
+
     {
       "name": "css_10_finais_titulo3",
       "icon": "icons/components/icon_10_finais_titulo3.svg",
@@ -2912,6 +2992,7 @@
         }
       }
     },
+
     {
       "name": "css_10_finais_titulo4",
       "icon": "icons/components/icon_10_finais_titulo4.svg",
@@ -2928,6 +3009,7 @@
         }
       }
     },
+
     {
       "name": "container",
       "icon": "icons/components/container.svg",
@@ -2942,6 +3024,7 @@
         "background-color"
       ]
     },
+
     {
       "name": "product",
       "icon": "icons/components/product.svg",
@@ -2970,21 +3053,17 @@
         }
       }
     },
+
     {
       "name": "image",
       "icon": "icons/components/image.svg",
-      "label": {
-        "key": "COMPONENT_IMAGE2_LABEL"
-      },
+      "label": "Imagem Manual Prof",
       "properties": [
         "style_image_fit_content",
-        "position",
         "width",
-        "style",
+        "position",
         "inside-caption",
         "text-align",
-        "letter-spacing",
-        "line-height",
         {
           "name": "edit-image",
           "directiveKey": "image"
@@ -3007,6 +3086,7 @@
         }
       }
     },
+
     {
       "name": "image2",
       "icon": "icons/components/image.svg",
@@ -3019,7 +3099,11 @@
         "position",
         "style_image",
         "inside-caption",
-        "text-align"
+        "text-align",
+        {
+          "name": "edit-image",
+          "directiveKey": "image2"
+        }
       ],
       "directiveOptions": {
         "caption": {
@@ -3876,6 +3960,7 @@
         }
       }
     },
+
     {
       "name": "container_mapa",
       "icon": "icons/components/slideshow.svg",
@@ -3886,7 +3971,53 @@
         "letter-spacing",
         "line-height"
       ]
+    },
+
+    {
+      "name": "css_icon_nos",
+      "icon": "icons/components/container.svg",
+      "label": "Ícone Nós",
+      "properties": [
+        "style_anos"
+      ]
+    },
+
+    {
+      "name": "css_icon_corpo",
+      "icon": "icons/components/container.svg",
+      "label": "Ícone Corpo",
+      "properties": [
+        "style_anos"
+      ]
+    },
+
+    {
+      "name": "css_icon_formas",
+      "icon": "icons/components/container.svg",
+      "label": "Ícone Formas",
+      "properties": [
+        "style_anos"
+      ]
+    },
+
+    {
+      "name": "css_icon_fala",
+      "icon": "icons/components/container.svg",
+      "label": "Ícone Fala",
+      "properties": [
+        "style_anos"
+      ]
+    },
+
+    {
+      "name": "css_icon_tempo",
+      "icon": "icons/components/container.svg",
+      "label": "Ícone Tempo",
+      "properties": [
+        "style_anos"
+      ]
     }
+
   ],
   "groups": [
     {
@@ -3913,46 +4044,6 @@
         "css_02_texto_rodape1",
         "css_05_infografico",
         "css_06_boxe_03"
-      ]
-    },
-    {
-      "label": "Questões",
-      "name": "questoes",
-      "components": [
-        "container_grupo_checkbox",
-        "container_grupo_checkbox_lado_a_lado",
-        "container_grupo_radio_linha",
-        "container_grupo_radio_lado_a_lado"
-      ]
-    },
-    {
-      "label": "Containers",
-      "name": "containers",
-      "components": [
-        "secao_para_aprofundar",
-        "secao_para_consolidar",
-        "secao_produzir_e_compartilhar",
-        "secao_topo_para_aprofundar",
-        "secao_topo_para_consolidar",
-        "secao_topo_produzir_e_compartilhar",
-        "secao_topo_quiz",
-        "container_read_more",
-        "container_fica_a_dica",
-        "container_repertorio_cultural",
-        "container_saiba_mais"
-      ]
-    },
-    {
-      "label": "Lingua_Inglesa",
-      "name": "lingua_inglesa",
-      "components": [
-        "secao_creating_and_sharing",
-        "secao_extra_practice",
-        "secao_find_out_more",
-        "secao_topo_creating_and_sharing",
-        "secao_topo_extra_practice",
-        "secao_topo_find_out_more",
-        "secao_topo_quiz"
       ]
     },
     {
@@ -4194,12 +4285,10 @@
         "embed",
         "product",
         "social-media",
-        "container_video",
-        "audio",
-        "container_video",
-        "slideshow_2_images",
-        "slideshow_3_images",
-        "slideshow_4_images"
+        "video_externo",
+        "video_interno",
+        "audio_interno",
+        "audio_externo"
       ]
     },
     {
@@ -4218,6 +4307,17 @@
         "container_faixa",
         "faixa",
         "quebra_pagina"
+      ]
+    },
+    {
+      "label": "Ícones",
+      "name": "icones",
+      "components": [
+        "css_icon_nos",
+        "css_icon_corpo",
+        "css_icon_formas",
+        "css_icon_fala",
+        "css_icon_tempo"
       ]
     }
   ],
@@ -4423,6 +4523,7 @@
       },
       "dataType": "styles"
     },
+
     {
       "name": "styles-type-list",
       "label": "Escolha o tipo de lista",
@@ -4465,6 +4566,47 @@
       },
       "dataType": "styles"
     },
+
+    {
+      "name": "style_anos",
+      "label": "Escolha o ano",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "Cores 2 anos"
+            },
+            "value": "cores_2_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 3 anos"
+            },
+            "value": "cores_3_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 4 anos"
+            },
+            "value": "cores_4_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 5 anos"
+            },
+            "value": "cores_5_anos"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+
     {
       "name": "fixed-background",
       "label": {
@@ -5036,7 +5178,7 @@
       },
       "control": {
         "type": "image-editor",
-        "focuspoint": true
+        "focuspoint": false
       },
       "dataType": "doc-image"
     },
